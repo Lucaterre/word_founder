@@ -1,6 +1,7 @@
 # word_founder
 
-Small tool to help find the start of the offset of a word and its length in a very long text quickly
+Small tool to help find the start of the offset of a word and its length in a very long text quickly.
+Useful script to correct offset and length in auto/manual annotation of golden corpus for NER.
 
 ## Requirements 
 

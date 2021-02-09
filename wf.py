@@ -1,3 +1,11 @@
+#!/usr/bin/env python 
+#-*- coding: utf-8 -*-
+
+"""Small tool to help find the start of the offset 
+of a word and its length in a very long text quickly
+
+# Author : Lucas Terriel <lucas.terriel@inria.fr>
+"""
 
 def get_offset_length_word():
 	def rerun():
@@ -49,5 +57,5 @@ def get_offset_length_word():
 			run = rerun()
 
 
-
-get_offset_length_word()
+if __name__ == "__main__":
+	get_offset_length_word()
