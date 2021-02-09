@@ -8,6 +8,9 @@ def get_offset_length_word():
 			run = False
 		return run
 
+	def separator():
+		return print('-' * 20, '\n')
+
 	print("""
 		|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
 		|***********************************************|
@@ -27,11 +30,11 @@ def get_offset_length_word():
 	while run:
 		try :
 			sentence = input('1) Enter your complete sentence : \n\n')
-			print('-' * 20, '\n')
+			separator()
 			word_to_find = input('2) Enter the word want to find in sentence : \n\n')
-			print('-' * 20, '\n')
+			separator()
 			offset_start_sentence = int(input('3) Enter the offset start sentence : \n\n'))
-			print('-' * 20, '\n')
+			separator()
 			if offset_start_sentence == None:
 				offset_start_sentence = 0
 			offset_start_word = offset_start_sentence + sentence.index(word_to_find)
