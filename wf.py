@@ -29,7 +29,7 @@ def get_offset_length_word():
 		HELP
 		----
 
-		Found the offset and the length of your your word
+		Found the offset and the length of your word
 		in sentence
 
 		\n""")
