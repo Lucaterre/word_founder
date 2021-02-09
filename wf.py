@@ -44,7 +44,7 @@ def get_offset_length_word():
 			offset_start_sentence = int(input('3) Enter the offset start sentence : \n\n'))
 			separator()
 			if offset_start_sentence == None:
-				offset_start_sentence = 0
+				pass #TODO(): set the offset_start_sentence on 0 (default)
 			offset_start_word = offset_start_sentence + sentence.index(word_to_find)
 			length = len(word_to_find)
 			print(f'[RESULT :] offset start word : {offset_start_word} | length of your word : {length} \n') 
